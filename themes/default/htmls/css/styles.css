@@ -1,0 +1,461 @@
+/* --------------------------------------------------------------------------
+	=reset
+--------------------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* --------------------------------------------------------------------------
+	=dody
+--------------------------------------------------------------------------- */
+
+body { 
+	font-family:Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif; 
+	margin:0;
+	padding:0;
+    }
+	
+.spacer{
+	clear:both; 
+	font-size:0; 
+	line-height:0;
+    }
+	
+/* --------------------------------------------------------------------------
+	=container
+--------------------------------------------------------------------------- */
+
+.container{
+	width:950px;
+	margin:0 auto;
+	}
+	
+/* --------------------------------------------------------------------------
+	=header
+--------------------------------------------------------------------------- */	
+
+.header{
+	width:950px;
+	float:left;
+	padding:15px 0;
+	}
+	
+.header img.logo{
+	display:block;
+	line-height:0;
+	font-size:0;
+	border:0;
+	margin:0 auto;
+	}
+	
+/* --------------------------------------------------------------------------
+	=content
+--------------------------------------------------------------------------- */
+
+.content{
+	width:944px;
+	float:left;
+	border:solid 3px #0075BF;
+	}
+	
+.headingTxt{
+	font:normal 20px/30px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	margin:50px 0;
+	}
+	
+	
+.loginBox{
+	width:300px;
+	margin:0 auto;
+	padding:25px;
+	}
+	
+.loginBox ul.forFields{
+	width:300px;
+	float:left;
+	}
+	
+.loginBox ul.forFields li{
+	width:300px;
+	float:left;
+	margin:0 0 15px 0;
+	}
+	
+.loginBox ul.forFields li.loginButton{
+	width:200px;
+	float:left;
+	margin:0 0 15px 0;
+	padding:10px 0 0 105px;
+	}
+	
+.loginBox label.fieldName{
+	width:100px;
+	font:bold 12px/18px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:left;
+	text-decoration:none;
+	color:#333;
+	float:left;
+	}
+	
+.loginBox input.fielsds{
+	width:178px;
+	height:18px;
+	background:url(../images/input_bg_07.png) top left no-repeat;
+	padding:0 7px;
+	font:normal 11px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	color:#333;
+	border:0;
+	float:right;
+	}
+	
+input.Button{
+	display:block;
+	width:148px;
+	height:45px;
+	display:block;
+	background:url(../images/blc_btn_11.png) top left no-repeat;
+	font:normal 11px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:center;
+	color:#fff;
+	border:0;
+	}
+	
+/* --------------------------------------------------------------------------
+	=footer
+--------------------------------------------------------------------------- */
+
+.footer{
+	width:950px;
+	float:left;
+	padding:15px 0 0 0;
+	}
+	
+.footer img.pandg{
+	display:block;
+	line-height:0;
+	font-size:0;
+	border:0;
+	margin:0 auto;
+	}
+	
+/* --------------------------------------------------------------------------
+	=rounds_left
+--------------------------------------------------------------------------- */
+
+#rounds{
+	width:136px;
+	height:380px;
+	float:left;
+	background-color:#0075BF;
+	padding:10px;
+	}
+	
+#rounds ul.roundBtns{
+	width:133px;
+	float:left;
+	}
+	
+#rounds ul.roundBtns li{
+	width:133px;
+	float:left;
+	margin:0 0 25px 0;
+	}
+	
+#rounds ul.roundBtns li a{
+	display:block;
+	width:133px;
+	height:29px;
+	font:normal 12px/29px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	background:#4792ce;
+	color:#5eaceb;
+	-moz-border-radius: 29px;
+	-webkit-border-radius: 29px;
+	 border-radius: 29px; /* future proofing */
+	 -khtml-border-radius: 29px; /* for old Konqueror browsers */
+	}
+	
+#rounds ul.roundBtns li a.active{
+	display:block;
+	background:#FFF;
+	color:#4792ce;
+	}
+	
+#rounds ul.roundBtns li a:hover {
+	display:block;
+	background:#FFF;
+	color:#4792ce;
+	}
+	
+/* --------------------------------------------------------------------------
+	=right column
+--------------------------------------------------------------------------- */
+
+.actions{
+	width:151px;
+	float:right;
+	height:380px;
+	padding:10px;
+	}
+	
+/* --------------------------------------------------------------------------
+	=counter
+--------------------------------------------------------------------------- */
+	
+.counter{
+	width:118px;
+	height:43px;
+	float:left;
+	background:url(../images/counter_bg_03.png) top left no-repeat;
+	padding:10px;
+	margin:0 0 0 5px;
+	}
+	
+.counter p.time{
+	font:normal 29px/32px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+	}
+	
+.counter p.timeLeft{
+	font:normal 10px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	color:#0075BF;
+	}
+	
+/* --------------------------------------------------------------------------
+	=middle buttons
+--------------------------------------------------------------------------- */
+
+.middleButtons{
+	width:150px;
+	float:left;
+	margin:50px 0 0 0;
+	}
+	
+input.blueBigButton{
+	display:block;
+	width:149px;
+	height:46px;
+	display:block;
+	background:url(../images/blue_big_btn_16.png) top left no-repeat;
+	font:normal 11px/43px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:center;
+	color:#0075BF;
+	border:0;
+	}
+	
+input.silverBigButton{
+	display:block;
+	width:149px;
+	height:46px;
+	display:block;
+	background:url(../images/grey_big_btn_12.png) top left no-repeat;
+	font:normal 11px/43px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:center;
+	color:#0075BF;
+	border:0;
+	}
+	
+/* --------------------------------------------------------------------------
+	=bottom buttons
+--------------------------------------------------------------------------- */
+
+.bottomButtons{
+	width:150px;
+	float:left;
+	margin:50px 0 0 0;
+	}
+	
+	
+/* --------------------------------------------------------------------------
+	=center column
+--------------------------------------------------------------------------- */
+
+.centerColumn{
+	width:580px;
+	float:left;
+	margin:0 17px;
+	}
+	
+.headingTxt2{
+	font:normal 20px/30px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:left;
+	text-decoration:none;
+	color:#333;
+	width:580px;
+	}
+	
+/* --------------------------------------------------------------------------
+	=questions
+--------------------------------------------------------------------------- */
+	
+.questions{
+	width:550px;
+	padding:15px;
+	float:left;
+	border:solid 1px #0075BF;
+	margin:10px 0 10px 0;
+	}
+	
+.questions ul.test{
+	width:550px;
+	float:left;
+	}
+	
+.questions ul.test li.testQuestion{
+	width:550px;
+	float:left;
+	font:bold 12px/18px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:left;
+	text-decoration:none;
+	color:#333;
+	margin:0 0 10px 0;
+	}
+	
+.questions ul.test li.options{
+	width:530px;
+	float:left;
+	font:normal 12px/18px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:left;
+	text-decoration:none;
+	color:#333;
+	padding:0 0 0 20px;
+	margin:0 0 5px 0;
+	}
+	
+input.radioBtn{
+	float:left;
+	}
+	
+/* --------------------------------------------------------------------------
+	=rules
+--------------------------------------------------------------------------- */
+	
+.questions ul.rules{
+	width:530px;
+	float:left;
+	}
+	
+.questions ul.rules li{
+	list-style-type:disc;
+	list-style-position::outside;
+	font:normal 12px/18px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:left;
+	text-decoration:none;
+	color:#333;
+	margin:0 0 5px 15px;
+	}
+	
+/* --------------------------------------------------------------------------
+	=reports
+--------------------------------------------------------------------------- */
+
+.questions ul.reports{
+	width:118px;
+	float:left;
+	padding:10px;
+	margin:0 0 0 90px;
+	}
+	
+.questions ul.reports li{
+	width:118px;
+	float:left;
+	margin:0 0 15px 0;
+	}
+	
+.questions ul.reports li a{
+	display:block;
+	width:118px;
+	height:33px;
+	font:normal 12px/33px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	background:url(../images/grey_btn_05.png) top left no-repeat;
+	color:#0075BF;
+    }
+	
+.questions ul.reports li a:hover{
+	display:block;
+	width:118px;
+	height:33px;
+	font:normal 12px/33px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	background:url(../images/blue_btn_03.png) top left no-repeat;
+	color:#0075BF;
+    }
+	
+.questions ul.reports li a.active{
+	display:block;
+	width:118px;
+	height:33px;
+	font:normal 12px/33px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	background:url(../images/blue_btn_03.png) top left no-repeat;
+	color:#0075BF;
+    }
+	
+.smallTxt{
+	font:normal 10px Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
+	text-align:left;
+	text-decoration:none;
+	color:#0075BF;
+	}
